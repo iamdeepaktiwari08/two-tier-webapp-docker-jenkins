@@ -1,4 +1,4 @@
-Hanumat Kripa
+Hanumat Kripa ❤️
 
 🚀 Two-Tier Flask Web App using Docker & Jenkins CI/CD
 
@@ -40,17 +40,19 @@ A fully automated 2-tier application deployed on AWS EC2 using Flask + MySQL, ma
 
 🖼 Project Screenshots
 
-1️⃣ EC2 Instance Screenshot
+ EC2 Instance Screenshot
 
 ![EC2 Instance](screenshots/EC2.png)
 
-2️⃣ Flask UI Screenshot
+Jenkins Build Success Screenshot
+
+![Jenkins Build Success](screenshots/jenkins-success.png)
+
+ Flask UI Screenshot
 
 ![Flask UI](screenshots/flask-ui.png)
 
-3️⃣ Jenkins Build Success Screenshot
 
-![Jenkins Build Success](screenshots/jenkins-success.png)
 
 
 🌐 EC2 Deployment
