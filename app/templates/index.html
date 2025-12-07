@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>2-Tier Flask App</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>2-Tier Flask App 🚀</h1>
+
+    <form action="/submit" method="POST">
+        <input type="text" name="username" placeholder="Enter your name…" required>
+        <button type="submit">Save</button>
+    </form>
+
+    <h2>Saved Entries</h2>
+    <ul>
+        {% for item in entries %}
+            <li>{{ item }}</li>
+        {% endfor %}
+    </ul>
+</div>
+
+</body>
+</html>
